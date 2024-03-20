@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(254, 207, 55);
+  border: 2px solid wheat;
+  border-radius: 15px;
+  color: black;
+}
+
+.button:hover {
+  background-color: wheat;
+}
+
+.fact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 300px;
+  width: 800px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  background-image: url("https://th.bing.com/th/id/R.b1e4006234b23841fefb536bf4a2d13a?rik=ek2zrGAEGfn2MA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-XAFO-BCWC1s%2fUQwHf5b6jaI%2fAAAAAAAAAVM%2fOi2Gho_s5O4%2fs1600%2fmodern-art-black-cat-with-big-eyes-wallszone-267659.jpg&ehk=GEbl3%2fFKgE23bjXtfZnjUEI2ccOAIaYArd1soItrShM%3d&risl=&pid=ImgRaw&r=0");
+  background-size: contain;
+}
+
+.fact-text {
+  text-align: center;
+  width: 500px;
+}
